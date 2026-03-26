@@ -1,0 +1,7 @@
+probleme (SRP violation) : 
+    FirefighterBoard gere à la fois la logique de Fire et de FireFighter
+
+solution : 
+    Deleguer à deux nouvelles classes:
+        - FireFighterManager
+        - FireManager
